@@ -54,6 +54,7 @@
             this.btVerCuentas.TabIndex = 1;
             this.btVerCuentas.Text = "1- Ver cuentas";
             this.btVerCuentas.UseVisualStyleBackColor = true;
+            this.btVerCuentas.Click += new System.EventHandler(this.btVerCuentas_Click);
             // 
             // btImportar
             // 
@@ -63,6 +64,7 @@
             this.btImportar.TabIndex = 2;
             this.btImportar.Text = "2- Importar cuentas";
             this.btImportar.UseVisualStyleBackColor = true;
+            this.btImportar.Click += new System.EventHandler(this.btImportar_Click);
             // 
             // btExportar
             // 
